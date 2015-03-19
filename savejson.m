@@ -281,7 +281,7 @@ for e=1:len
         val=regexprep(val,'"','\"');
         val=regexprep(val,'^"','\"');
     else
-        val=regexprep(item(e,:),'\\','\\\\');
+        val=regexprep(item(e,:),'\\','\\');
         val=regexprep(val,'"','\\"');
         val=regexprep(val,'^"','\\"');
     end
